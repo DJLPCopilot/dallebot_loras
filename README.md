@@ -39,6 +39,12 @@ caption_extension: .txt
 Can be better when I have the time :)
 
 ![image](https://github.com/user-attachments/assets/2edca16b-62aa-4c36-9c8c-f940c1b613fd)
+Generation parameters:
+```
+1girl, absurdres, high resolution, masterpiece, fubuki, white blouse, [midriff::12], detached sleeves, black short shorts, blue neckerchief, thigh strap, single thighhigh, white hair, single side braid, bouncing, sitting, jumping, :D, space hopper, garden, motion lines, <lora:fubuki:1> <lora:space_hopper:1>
+Negative prompt: bad fingers
+Steps: 20, Sampler: DPM++ 2M SDE, Schedule type: Karras, CFG scale: 7, Seed: 2245042501, Size: 512x768, Model hash: d4c1719023, Model: animekawa_v10, VAE hash: 735e4c3a44, VAE: vaeFtMse840000EmaPruned_vae.safetensors, Denoising strength: 0.6, Hires upscale: 2, Hires steps: 10, Hires upscaler: R-ESRGAN 4x+ Anime6B, Lora hashes: "fubuki: ce30cae7c555, space_hopper: f4112c058273", Version: v1.9.3
+```
 
 # Credits
 
