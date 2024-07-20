@@ -8,6 +8,8 @@ The location of your download depends on where you are hosting Stable Diffusion 
 
 # Training parameters
 `space-hopper` series only for SD 1.5
+Activation tag: space hopper, bouncing
+Remove tags: `i forgor :skullemoji:`
 Date: 18 July 2024
 ```
 batch_size: 2
@@ -20,6 +22,37 @@ bucket_no_upscale: False
 
 image_count: 416
 num_repeats: 1
+shuffle_caption: True
+keep_tokens: 1
+caption_dropout_rate: 0.0
+caption_dropout_every_n_epoches: 0
+caption_tag_dropout_rate: 0.0
+color_aug: False
+flip_aug: False
+face_crop_aug_range: None
+random_crop: False
+token_warmup_min: 1,
+token_warmup_step: 0,
+is_reg: False
+class_tokens: None
+caption_extension: .txt
+```
+
+`overfitting-test`
+Activation tag: bouncing on space hopper
+Remove tags: space hopper, balloon, ball, gym ball, beach ball, volleyball, sitting
+Date: 20 July 2024
+```
+batch_size: 3
+resolution: (512, 512)
+enable_bucket: True
+min_bucket_reso: 256
+max_bucket_reso: 1024
+bucket_reso_steps: 64
+bucket_no_upscale: False
+
+image_count: 767
+num_repeats: 10
 shuffle_caption: True
 keep_tokens: 1
 caption_dropout_rate: 0.0
