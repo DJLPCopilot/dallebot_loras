@@ -42,6 +42,8 @@ caption_extension: .txt
 Activation tag: bouncing on space hopper
 Remove tags: space hopper, balloon, ball, gym ball, beach ball, volleyball, sitting
 Date: 20 July 2024
+> [!WARNING]  
+> Approximately 400 images were 2girl therefore it struggles with 1girl. This effect is worse for higher epochs
 ```
 batch_size: 3
 resolution: (512, 512)
